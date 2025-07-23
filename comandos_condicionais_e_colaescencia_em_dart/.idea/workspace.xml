@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c01310b0-a0b3-4158-a00a-6c705995ce09" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/comandos_condicionais_e_colaescencia_em_dart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/kotlin/com/example/primeiro_app/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/drawable-v21/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/values-night/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/android/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/controllers/login_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/controllers/register_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/screens/login_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/screens/register_screen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/widgets/login_form.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/lib/widgets/register_form.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../primeiro_app/test/widget_test.dart" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="30C6aRGw9QJDAFfGxbqFfmD6dXF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Dart Command Line App.main.dart.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yuri_candido/Desktop/a/moreDevsTwoBlu/dart_orientado_a_objeto/2025_07_23_exercicios",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/main.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.main.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c01310b0-a0b3-4158-a00a-6c705995ce09" name="Changes" comment="" />
+      <created>1753119271262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753119271262</updated>
+    </task>
+    <servers />
+  </component>
+</project>
