@@ -1,0 +1,36 @@
+Lista de Exercícios – Orientação a Objetos em Dart (Nível Intermediário)
+1. Classe Produto
+Crie uma classe `Produto` com atributos privados `nome`, `preco` e `quantidade`. Implemente métodos getters e setters com validação. Crie um método para calcular o valor total em estoque.
+
+2. Classe ContaBancaria
+Crie uma classe `ContaBancaria` com atributos `titular`, `numero`, `saldo`. Implemente métodos para `depositar`, `sacar` (com validação de saldo) e `mostrarSaldo`.
+
+3. Classe abstrata Funcionario
+Crie uma classe abstrata `Funcionario` com o método `calcularSalario()`. Crie duas subclasses `Desenvolvedor` e `Gerente` com implementações diferentes do cálculo do salário.
+
+4. Sistema de Veículos
+Crie uma classe abstrata `Veiculo` com métodos `ligar()` e `desligar()`. Implemente as classes `Carro` e `Moto`, sobrescrevendo os métodos.
+
+5. Herança e Polimorfismo com Animais
+Crie uma classe `Animal` com um método `fazerSom()`. Crie classes `Cachorro`, `Gato` e `Vaca` que herdam de `Animal` e implementam `fazerSom()` de maneira diferente.
+
+6. Classe Retângulo
+Crie uma classe `Retangulo` com os atributos `largura` e `altura`. Implemente métodos para calcular `área` e `perímetro`. Faça validação para impedir valores negativos.
+
+7. Sistema de Biblioteca
+Crie as classes `Livro`, `Usuario` e `Emprestimo`. Utilize composição para representar o relacionamento entre as classes. Adicione métodos para registrar e exibir empréstimos.
+
+8. Classe Pessoa com Encapsulamento
+Implemente a classe `Pessoa` com nome e idade. Garanta que a idade não possa ser menor que zero, utilizando `set` com validação.
+
+9. Interface Imprimivel
+Crie uma interface `Imprimivel` com um método `imprimir()`. Faça com que as classes `Documento` e `Relatorio` implementem essa interface com comportamentos diferentes.
+
+10. Sistema de Pagamentos
+Crie uma classe abstrata `Pagamento` com o método `processarPagamento()`. Implemente as classes `PagamentoBoleto` e `PagamentoCartao` que sobrescrevem esse método.
+
+11. Classe Carrinho de Compras
+Crie uma classe `Carrinho` que armazene uma lista de `Produto`. Implemente métodos para adicionar, remover e listar produtos, além de calcular o total do carrinho.
+
+12. Conversão para String
+Crie uma classe `Pessoa` com `nome` e `idade`. Sobrescreva o método `toString()` para retornar uma representação textual da instância.
