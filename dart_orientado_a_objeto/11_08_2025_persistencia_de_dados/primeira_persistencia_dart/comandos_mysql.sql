@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS biblioteca;
+USE biblioteca;
+
+CREATE USER 'usuario'@'127.0.0.1' IDENTIFIED BY 'senha';
+
+GRANT ALL PRIVILEGES ON *.* TO 'usuario'@'127.0.0.1';
+FLUSH PRIVILEGES;
+
+CREATE TABLE IF NOT EXISTS Livro (
+    idLivro INT AUTO_INCREMENT,
+    titulo VARCHAR(40) NOT NULL,
+    autor VARCHAR(40) NOT NULL,
+    PRIMARY KEY (idLivro)
+);
