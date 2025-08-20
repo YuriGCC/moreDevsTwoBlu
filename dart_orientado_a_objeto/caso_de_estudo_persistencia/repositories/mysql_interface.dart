@@ -8,12 +8,14 @@ class MySQLInterface {
   late String _userName;
   late String _password;
   late String _dataBaseName;
+  late MySQLConnection _conn;
 
   String get host => _host;
   int get port => _port;
   String get userName => _userName;
   String get password => _password;
   String get dataBaseName => _dataBaseName;
+  MySQLConnection get conn => _conn;
 
   void set host(String newHost) => _host = newHost;
   void set port(int newPort) => _port = newPort;
@@ -27,6 +29,7 @@ class MySQLInterface {
       this._userName,
       this._password,
       this._dataBaseName,
+      this._conn
       );
 
   static Future<MySQLInterface> createConnection({
@@ -36,14 +39,14 @@ class MySQLInterface {
     required String password,
     required String dataBaseName,
   }) async {
-      final conn = await MySQLConnection.createConnection(host: host, port: port, userName: userName, password: password);
+      final conn = await MySQLConnection.createConnection(host: host, port: port, userName: userName, password: password, secure: false);
 
       await conn.connect();
 
-      return MySQLInterface._(host, port, userName, password, dataBaseName);
+      return MySQLInterface._(host, port, userName, password, dataBaseName, conn);
   }
 
-  void save(Persistent object) {
-    object.save();
+  void save(MySQLInterface sqlInterface = , Persistent persistentObject) {
+    persistentObject.save(sqlInterface);
   }
 }

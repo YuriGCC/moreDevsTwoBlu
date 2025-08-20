@@ -1,4 +1,5 @@
+import 'mysql_interface.dart';
 
 abstract class Persistent {
-  void save();
+  Future<void> save(MySQLInterface sqlInterface);
 }
