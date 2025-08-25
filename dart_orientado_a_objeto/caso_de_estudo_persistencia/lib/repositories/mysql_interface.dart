@@ -39,14 +39,21 @@ class MySQLInterface {
     required String password,
     required String dataBaseName,
   }) async {
-      final conn = await MySQLConnection.createConnection(host: host, port: port, userName: userName, password: password, secure: false);
+      final conn = await MySQLConnection.createConnection(
+          host: host,
+          port: port,
+          userName: userName,
+          password: password,
+          databaseName: dataBaseName,
+          secure: false
+      );
 
       await conn.connect();
 
       return MySQLInterface._(host, port, userName, password, dataBaseName, conn);
   }
 
-  void save(MySQLInterface sqlInterface = , Persistent persistentObject) {
-    persistentObject.save(sqlInterface);
+  Future<void> save(Persistent persistentObject) async {
+    await persistentObject.save(this);
   }
 }

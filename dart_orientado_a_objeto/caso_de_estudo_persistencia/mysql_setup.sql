@@ -1,26 +1,33 @@
+drop database loja;
 create database loja;
 use loja;
 
+DROP USER 'usuario'@'%';
 CREATE USER 'usuario'@'%' IDENTIFIED BY 'senha';
 GRANT ALL PRIVILEGES ON *.* TO 'usuario'@'%';
+FLUSH PRIVILEGES;
 
-create table Product (
-	productId int auto_increment primary key,
-	productName varchar(255),
-    price numeric(10,5)
+DROP TABLE IF EXISTS OrderProduct;
+DROP TABLE IF EXISTS ClientOrder;
+DROP TABLE IF EXISTS Product;
+DROP TABLE IF EXISTS Client;
+
+CREATE TABLE Product (
+    productId INT AUTO_INCREMENT PRIMARY KEY,
+    productName VARCHAR(255),
+    price NUMERIC(10,5)
 );
 
-create table Client (
-	clientId int auto_increment primary key,
-	clientName varchar(255)
+CREATE TABLE Client (
+    clientId INT AUTO_INCREMENT PRIMARY KEY,
+    clientName VARCHAR(255)
 );
 
-create table ClientOrder (
-	clientOrderId int auto_increment primary key,
-	dateOrder date,
-    clientId int,
-
-    foreign key (clientId) references Client(clientId)
+CREATE TABLE ClientOrder (
+    clientOrderId INT AUTO_INCREMENT PRIMARY KEY,
+    dateOrder DATE,
+    clientId INT,
+    FOREIGN KEY (clientId) REFERENCES Client(clientId)
 );
 
 CREATE TABLE OrderProduct (
