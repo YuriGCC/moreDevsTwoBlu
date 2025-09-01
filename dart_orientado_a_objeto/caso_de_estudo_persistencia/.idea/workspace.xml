@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5547b445-69c8-419f-a962-dbecc3242c00" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/client.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/order.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/core/product.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repositories/persistent.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repositories/report_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5547b445-69c8-419f-a962-dbecc3242c00" name="Changes" comment="finalizado caso de estudo persistencia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/client.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/order.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/product.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/caso_de_estudo_persistencia.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_setup.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql_setup.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/client_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/mysql_interface.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/mysql_interface.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/order_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/persistent.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/product_repository.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/caso_de_estudo_persistencia_test.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +37,9 @@
     &quot;accountId&quot;: &quot;c1084607-dbf6-492a-8b61-39f7315e4c56&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -93,6 +74,7 @@
       <recent name="C:\Users\yuri_candido\Desktop\a\moreDevsTwoBlu\dart_orientado_a_objeto\caso_de_estudo_persistencia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\moreDevsTwoBlu\dart_orientado_a_objeto\caso_de_estudo_persistencia\lib" />
       <recent name="C:\Users\yuri_candido\Desktop\a\moreDevsTwoBlu\dart_orientado_a_objeto\caso_de_estudo_persistencia\core" />
     </key>
   </component>
@@ -117,6 +99,19 @@
       <option name="presentableId" value="Default" />
       <updated>1755115347359</updated>
     </task>
+    <task id="LOCAL-00001" summary="finalizado caso de estudo persistencia">
+      <option name="closed" value="true" />
+      <created>1756130176748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756130176748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finalizado caso de estudo persistencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizado caso de estudo persistencia" />
   </component>
 </project>
